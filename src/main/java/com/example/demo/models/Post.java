@@ -13,8 +13,8 @@ public class Post {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    @Column(name = "title")
-    private String title;
+//    @Column(name = "title")
+//    private String title;
     @Column(name = "anons")
     private String anons;
     @Column(name = "full_text")
